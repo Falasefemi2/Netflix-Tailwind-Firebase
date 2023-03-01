@@ -8,3 +8,27 @@ body {
     background-color: #000;
     font-family: 'Oswald', sans-serif;;
 }
+
+.image-container {
+    position: relative;
+  }
+  
+  .image-container:hover > .title {
+    opacity: 1;
+  }
+  
+
+  .title {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
