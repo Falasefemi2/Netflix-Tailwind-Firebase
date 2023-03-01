@@ -48,4 +48,4 @@ const Row = ({ title, fetchURL, rowID }) => {
     </>
   );
 };
- export default Row;
+export default Row;
