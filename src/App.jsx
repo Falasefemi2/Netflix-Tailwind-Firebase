@@ -1,12 +1,15 @@
-import React from 'react'
-import { Navbar } from './components'
+// import React from "react";
+// import { Outlet } from "react-router";
+// import { Navbar } from "./components";
+// import { Home } from "./routes";
 
-const App = () => {
-  return (
-    <>
-    <Navbar />
-    </>
-  )
-}
+// const App = () => {
+//   return (
+//     <>
+//       <Navbar />
+//       <Outlet />
+//     </>
+//   );
+// };
 
-export default App
+// export default App;
